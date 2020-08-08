@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [DemoTest]">
+  <test thread-count="5" verbose="0" name="testngTest(failed)">
+    <classes>
+      <class name="com.pom.ecommerce.test.testAddToCart">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDownDriver"/>
+          <include name="setupTest"/>
+          <include name="validateAddToCart"/>
+          <include name="validateAddToCart1"/>
+        </methods>
+      </class> <!-- com.pom.ecommerce.test.testAddToCart -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [DemoTest] -->
